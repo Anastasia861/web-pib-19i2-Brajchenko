@@ -1,0 +1,115 @@
+h1 {
+	color: #1A2574;
+	font-family: Helvetica, sans-serif;
+   }/*Geneva, Arial, Helvetica, sans-serif;*/
+   
+@media only screen and (min-width: 845px) 
+{
+	body{
+		margin-left: 80;
+		width: 85%; 
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 845px)
+{
+	body{
+		margin-left: 40px;
+		width: 85%; 
+	}
+
+}
+
+#name /*Libline*/
+		{
+			text-align: right; 
+			font-family: cursive; 
+			font-size: 2em; 
+			/*margin-right: 90px; */
+			margin-bottom: -30px 
+		}
+body {
+  		background-image: url('images/background.jpg');
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+		margin-bottom: 60px;
+		}
+li::marker {
+    content: ''/*как выглядит маркер*/
+	}
+#header/*Онлайн-библиотека*/
+	{
+		text-align: center;
+		font-size: 20pt
+	}
+#header2 /*Популярнып книги сайта*/
+	{
+		text-align: center; 
+		text-indent: 15px; 
+		font-size: 15pt
+	}
+#hyperlinks /*ссылки на страницы - id*/
+	{
+		display: flex; 
+		text-align: center;		
+		justify-content: space-evenly;
+		margin-left: 0px
+	}
+#color
+	{
+		color: black;
+		
+	}
+#text /*текст главной страницы на итальянском*/
+{
+	text-align: justify; 
+	text-indent: 15px; 
+	font-size: 15pt; 
+	/*margin-left: 85px; 
+	margin-right: 90px*/
+}
+#Books/*3 книги на главной странице*/
+{
+	display: flex; 
+	justify-content: space-evenly; 
+	text-align: center
+}
+#text-align
+{
+	text-align: center;
+	/*margin-left: 85px; 
+	margin-right: 90px*/
+}
+.book /*расположение картинки, названия  и автора книги*/
+{
+	display: flex; 
+	justify-content: space-around; 
+	text-align: justify
+}
+.Name_book{
+	font-size: 20pt;
+	font-weight: bold;
+	margin: auto;
+}
+.Author_book{ /*автор книги*/
+	font-size: 15pt;
+	font-weight: bold;
+	margin: auto;
+}
+.About_Book{/*Описание книг на личных страницах*/
+	text-align: justify; 
+	text-indent: 15px; 
+	font-size: 15pt; 
+	/*margin-left: 150px; 
+	margin-right: 150px*/
+}
+.footer /*class*/
+	{
+		position: fixed; /* Фиксированное положение */
+		left: 00; bottom: 0; /* Левый нижний угол */
+		padding: 10px; /* Поля вокруг текста */
+		background: #cebfdb/*#ad91c4*/; /* Цвет фона */
+		color: #fff; /* Цвет текста */
+		width: 100%; /* Ширина слоя */
+   }
+}
